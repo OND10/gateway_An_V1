@@ -15,7 +15,7 @@ namespace Gateway_Domain.Entities
 
         public Company()
         {
-             CompanyServices = new HashSet<CompanyServices>();   
+            CompanyServiceslist = new HashSet<CompanyServices>();   
         }
 
 
@@ -41,8 +41,8 @@ namespace Gateway_Domain.Entities
         public int CategoryID { get; set; }
         public int ProvinceId {  get; set; }
 
-        [InverseProperty(nameof(CompanyServices.com))]
-        public ICollection<CompanyServices> CompanyServices { get; set; }
+        [InverseProperty(nameof(CompanyServices.company))]
+        public ICollection<CompanyServices> CompanyServiceslist { get; set; }
 
     }
 

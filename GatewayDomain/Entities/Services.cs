@@ -14,7 +14,7 @@ namespace GatewayDomain.Entities
 
         public Services()
         {
-              CompanyServices = new HashSet<CompanyServices>();
+              CompanyServiceslist = new HashSet<CompanyServices>();
         }
         [Key]
         public int ServiceId {  get; set; }
@@ -22,7 +22,7 @@ namespace GatewayDomain.Entities
         public string ServiceDescription { get; set; } = string.Empty;
         public decimal Price { get; set; }
 
-        [InverseProperty(nameof(CompanyServices))]
-        public ICollection<CompanyServices> CompanyServices { get; set; }
+        [InverseProperty(nameof(CompanyServices.service))]
+        public ICollection<CompanyServices> CompanyServiceslist { get; set; }
     }
 }
