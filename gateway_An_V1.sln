@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Changes", "Changes", "{3500
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D24329C9-84DA-4AAF-BBD1-38AF743B7BEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GatewayDomain", "GatewayDomain\GatewayDomain.csproj", "{4FEF8651-D3A8-4CC7-8F8E-7E4DCC81EAE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatewayDomain", "GatewayDomain\GatewayDomain.csproj", "{4FEF8651-D3A8-4CC7-8F8E-7E4DCC81EAE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infustracture", "Infustracture", "{D490A535-2E65-48C5-9B22-4FE0FA73E56D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
